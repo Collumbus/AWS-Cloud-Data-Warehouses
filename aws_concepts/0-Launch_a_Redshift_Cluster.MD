@@ -62,12 +62,12 @@
     * 2 vCPUs
     * fixed 160 GB SSD storage capacity
 
-    <br />
+<br />
 
 
-    |![Cluster's basic configuration](img/8.6.png)|
-    |:--:|
-    |*Cluster's basic configuration*|
+|![Cluster's basic configuration](img/8.6.png)|
+|:--:|
+|*Cluster's basic configuration*|
 
 <br />
 
@@ -75,9 +75,9 @@
 2. **Sample data**
     Select the checkbox to load the sample data to your Redshift cluster. It will load a sample dataset tickitDB with a sample database called TICKIT.
 
-    |![Load sample data to your Redshift cluster](img/8.7.png)|
-    |:--:|
-    |*Load sample data to your Redshift cluster*|
+|![Load sample data to your Redshift cluster](img/8.7.png)|
+|:--:|
+|*Load sample data to your Redshift cluster*|
 
 <br />
 
@@ -85,16 +85,16 @@
 3. **Database configurations**
     Provide the username and password for the database.
 
-    ![table 1](img/8.8.png)
+![table 1](img/8.8.png)
 
-    <br />
+<br />
 
 
-    **Please note:** We **strongly advise** you to keep these passwords closely guarded, including not putting them in your GitHub public repo, etc. 
+**Please note:** We **strongly advise** you to keep these passwords closely guarded, including not putting them in your GitHub public repo, etc. 
 
-    |![Database configurations](img/8.9.png)|
-    |:--:|
-    |*Database configurations*|
+|![Database configurations](img/8.9.png)|
+|:--:|
+|*Database configurations*|
 
 <br />
 
@@ -102,9 +102,9 @@
 4. **Cluster permissions**
     Choose the IAM role created earlier, *myRedshiftRole*, from the drop-down and click on the *Associate IAM role button*.
     
-    |![Cluster permissions. Associate the custom IAM role. ](img/8.10.png)|
-    |:--:|
-    |*Cluster permissions. Associate the custom IAM role.*|
+|![Cluster permissions. Associate the custom IAM role. ](img/8.10.png)|
+|:--:|
+|*Cluster permissions. Associate the custom IAM role.*|
     
 <br />
 
@@ -112,25 +112,25 @@
 5. **Additional configurations**
     * Toggle the button to turn off the "use defaults" feature,
     * Network and security - Choose the following values:
-    ![table 2](img/8.11.png)
+![table 2](img/8.11.png)
+
+|![Do not use defaults in the Additional configurations](img/8.12.png)|
+|:--:|
+|*Do not use defaults in the Additional configurations*|
+
+|![Network and security section](img/8.13.png)|
+|:--:|
+|*Network and security section*|
     
-    |![Do not use defaults in the Additional configurations](/img/8.12.png)|
-    |:--:|
-    |*Do not use defaults in the Additional configurations*|
-    
-    |![Network and security section](img/8.13.png)|
-    |:--:|
-    |*Network and security section*|
-    
-    <br />
+<br />
 
 
-    * **Additional database configurations:** The default database name and open port would be:
-    ![table 3](img/8.14.png)
-    
-    |![Additional database configurations](img/8.15.png)|
-    |:--:|
-    |*Additional database configurations*|
+* **Additional database configurations:** The default database name and open port would be:
+![table 3](img/8.14.png)
+
+|![Additional database configurations](img/8.15.png)|
+|:--:|
+|*Additional database configurations*|
     
 <br />
 
@@ -139,6 +139,6 @@
 
 7. Click on the **Clusters** menu item from the left navigation pane, and look at the cluster that you just launched. Make sure that the **Status** is **Available** before you try to connect to the database later. You can expect this to take 5-10 minutes.
 
-    |![If the status shows "Available", the Cluster is ready to be connected](img/8.16.png)|
-    |:--:|
-    |*If the status shows "Available", the Cluster is ready to be connected*|
+|![If the status shows "Available", the Cluster is ready to be connected](img/8.16.png)|
+|:--:|
+|*If the status shows "Available", the Cluster is ready to be connected*|
